@@ -6,9 +6,16 @@ li {
 .top-half {
   background-image: url("../img/beardwedding.jpg");
   background-size: 100%;
+  color: white;
 }
+
+.bottom-half{
+  font-family: 'Lora', serif;
+  color: grey;
+  }
+
 .heading {
-  padding: 10%;
+  padding: 11%;
 }
 
 h1 {
@@ -23,7 +30,6 @@ h1 {
 }
 h2 {
   text-align: center;
-  /*position: absolute;*/
   font-size: 45px;
   font-family: 'Quicksand', sans-serif;
   text-transform: uppercase;
@@ -31,4 +37,28 @@ h2 {
   border-bottom: white 1px solid;
   top: 50%;
   bottom: 0;
+}
+
+.icon-style {
+  display: table-cell;
+  width: 33%;
+  padding: 3%;
+  text-align: center;
+
+
+}
+.make-a-circle {
+  text-align: center;
+  display: table-cell;
+
+  vertical-align: middle;
+  width: 80px;
+  height: 80px;
+  border: 1px solid black;
+  border-radius: 50%;
+
+
+
+
+
 }
