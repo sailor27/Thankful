@@ -1,0 +1,34 @@
+li {
+  display: inline;
+  float: right;
+  padding-left: 10px;
+}
+.top-half {
+  background-image: url("../img/beardwedding.jpg");
+  background-size: 100%;
+}
+.heading {
+  padding: 10%;
+}
+
+h1 {
+  font-size: 80px;
+  font-family: 'Quicksand', sans-serif;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: white;
+  text-align: center;
+  margin-top: -40px;
+  letter-spacing: 10px;
+}
+h2 {
+  text-align: center;
+  /*position: absolute;*/
+  font-size: 45px;
+  font-family: 'Quicksand', sans-serif;
+  text-transform: uppercase;
+  color: white;
+  border-bottom: white 1px solid;
+  top: 50%;
+  bottom: 0;
+}
